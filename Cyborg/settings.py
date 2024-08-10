@@ -35,7 +35,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_ALL_ORIGINS=True
 CSRF_COOKIE_NAME = 'csrftoken'
 
-CSRF_TRUSTED_ORIGINS = ['https://cyborg-qnby.onrender.com/','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://cyborg-gamezone.onrender.com/','https://*.127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
