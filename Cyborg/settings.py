@@ -42,6 +42,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:5500',
     'http://127.0.0.1:8000',
     'https://f...content-available-to-author-only...r.com',
+    'https://cyborg-gamezone.onrender.com/'
 ]
 CORS_ALLOW_METHODS = (
     "DELETE",
