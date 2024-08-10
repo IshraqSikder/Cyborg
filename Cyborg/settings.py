@@ -35,18 +35,13 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_ALL_ORIGINS=True
 CSRF_COOKIE_NAME = 'csrftoken'
 
-# CSRF_TRUSTED_ORIGINS = ['https://cyborg-gamezone.onrender.com/']
-CSRF_TRUSTED_ORIGINS = [
-    'https://cyborg-gamezone.onrender.com'
-]
-
+CSRF_TRUSTED_ORIGINS = ['https://cyborg-gamezone.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     'http://127.0.0.1:5500',
     'http://127.0.0.1:8000',
-    'https://f...content-available-to-author-only...r.com',
-    'https://cyborg-gamezone.onrender.com/'
+    'https://f...content-available-to-author-only...r.com'
 ]
 CORS_ALLOW_METHODS = (
     "DELETE",

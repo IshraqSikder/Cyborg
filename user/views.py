@@ -148,7 +148,7 @@ class ChangePasswordView(APIView):
         user.set_password(new_password)
         user.save()
 
-        return Response({"detail": "Password changed successfully"}, status=status.HTTP_200_OK)
+        return Response({"success": "Password changed successfully"}, status=status.HTTP_200_OK)
   
 class ResetPasswordRequestView(APIView):
     def post(self, request):
