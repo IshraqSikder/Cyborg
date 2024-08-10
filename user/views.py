@@ -18,8 +18,8 @@ from django.template.loader import render_to_string
 from django.conf import settings
 
 # Create your views here.
-BASE_URL_FRONT = "http://127.0.0.1:5500"
-BASE_URL_BACKEND = "http://127.0.0.1:8000"
+BASE_URL_FRONT = "https://ishraqsikder.github.io/Cyborg-Client"
+BASE_URL_BACKEND = "https://cyborg-gamezone.onrender.com"
 
 class SearchByUserId(filters.BaseFilterBackend):
     def filter_queryset(self, request, query_set, view):
